@@ -13,7 +13,7 @@ def Numeros(lista):
     return maior, menor, soma, media
 
 lista = []
-for j in range(5):
+for j in range(5): 
     lista.append(int(input()))
 print(Numeros(lista))
 

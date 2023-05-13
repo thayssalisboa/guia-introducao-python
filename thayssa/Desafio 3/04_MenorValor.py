@@ -12,4 +12,4 @@ def Primo(x):
     return mensagem
 
 x = int(input('valor de x: '))
-print(Primo(x))
+print(Primo(x)) 

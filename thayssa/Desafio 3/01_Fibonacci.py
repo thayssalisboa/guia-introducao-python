@@ -14,4 +14,3 @@ for i in range (1, 9):
     pu = u
     u = atual
     print(atual)
-

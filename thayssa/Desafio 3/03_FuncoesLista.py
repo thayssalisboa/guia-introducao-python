@@ -24,4 +24,4 @@ print(len(x))
 
 # Escreva todos os valores de x multiplicados por 1000
 for i in x:
-    print(i*1000)
+    print(i*1000) 
