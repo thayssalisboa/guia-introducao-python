@@ -24,7 +24,7 @@ for i in range(t-5, t):
 time = 'Chapecoence'
 for i in range(20):
     if times[i] == time:
-        print('\nposição da',time, ':',i+1, '\n')
+        print('\nposição da',time, ':',i+1, '\n') 
 
 ordem = sorted(times)
 for i in range(20):

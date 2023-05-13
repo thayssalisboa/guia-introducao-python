@@ -8,7 +8,7 @@ for i in frutas:
     for j in i:
         if j == 'a' or j == 'e' or j == 'i' or j == 'o' or j == 'u':
             vogais.append(j)
-    print('vogais de', i)
+    print('vogais de', i) 
     for k in vogais:
         print(k)
     vogais.clear()
