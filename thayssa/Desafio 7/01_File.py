@@ -19,7 +19,7 @@ with open('foo.txt') as arq:
 arq = open('bar.txt', 'w')
 arq.write(str(c))
 arq.close()
-
+ 
 with open('bar.txt') as arquivo:
     for linha in arquivo:
         print(linha)
