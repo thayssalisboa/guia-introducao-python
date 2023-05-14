@@ -24,4 +24,4 @@ for j in range(t):
 
 print('quantidades de A:', conta)
 print('posição do último A:', ultimo)
-print('posicao do primeiro A:', primeiro)
+print('posicao do primeiro A:', primeiro) 

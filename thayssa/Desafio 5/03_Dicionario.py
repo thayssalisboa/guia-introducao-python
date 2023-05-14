@@ -12,7 +12,7 @@ if media >= 40 and media < 60:
     dic = {nome: situacao}
 if media < 40:
     situacao = 'reprovado'
-    dic = {nome: situacao}
+    dic = {nome: situacao} 
 
 print(dic)
 

@@ -35,7 +35,7 @@ for i in range(t):
             waypoints[i]['lon'] = -130
             waypoints[i]['name'] = 'not a real place'
             break
-        
+         
 # Crie um loop que escreva na tela todos os valores dos dicionarios da lista
 for i in waypoints:
     print(i)
