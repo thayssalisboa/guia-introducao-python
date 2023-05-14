@@ -1,4 +1,4 @@
-print('1 - inserir novo filme \n2- ver filmes por gênero \n3- buscar filme')
+print('1 - inserir novo filme \n2- ver filmes por gênero \n3- buscar filme \n0 - sair')
 opcao = int(input('o que deseja fazer? '))
 generos = ['acao', 'aventura', 'comedia', 'drama', 'fantasia', 'terror']
 c = 0 # só pra não deixar o if vazio
