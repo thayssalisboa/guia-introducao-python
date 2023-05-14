@@ -7,11 +7,21 @@ frase = input('digite uma frase: ')
 
 t = len(frase)
 conta = 0
+primeiro = 0 
+ultimo = 0
 for j in range(t):
     if frase[j] == 'a' or frase[j] == 'A':
         conta += 1 
-                  
+
+for j in range(t):
+    if frase[j] == 'a' or frase[j] == 'A':
+        primeiro = j
+        break  
+
+for j in range(t):
+    if frase[j] == 'a' or frase[j] == 'A':
+        ultimo = j               
 
 print('quantidades de A:', conta)
-#print('posição do último A:', ultimo)
-#print('posicao do primeiro A:', primeiro)
+print('posição do último A:', ultimo)
+print('posicao do primeiro A:', primeiro)
